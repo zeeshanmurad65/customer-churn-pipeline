@@ -11,24 +11,13 @@ An end-to-end, full-stack machine learning pipeline that predicts customer churn
 
 ## 📂 Project Structure
 
-\`\`\`text
-customer-churn-pipeline/
-├── Data/
-│   └── model/
-│       └── Pipeline_lr_model.pkl   # Serialized Scikit-Learn model pipeline
-├── database.py                     # SQLAlchemy ORM and DB connection logic
-├── main.py                         # FastAPI application and prediction endpoints
-├── frontend.py                     # Streamlit user interface and dashboard
-├── requirements.txt                # Python dependencies
-├── .gitignore                      # Security and environment exclusions
-└── README.md                       # Project documentation
-\`\`\`
+```text customer-churn-pipeline/ ├── Data/ │ └── model/ │ └── Pipeline_lr_model.pkl # Serialized Scikit-Learn model pipeline...
 
 ## 🚀 Local Installation & Setup
 
 ### 1. Clone the Repository
 \`\`\`bash
-git clone https://github.com/YourUsername/customer-churn-pipeline.git
+git clone https://github.com/zeeshanmurad65/customer-churn-pipeline.git
 cd customer-churn-pipeline
 \`\`\`
 
