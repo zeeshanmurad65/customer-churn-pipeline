@@ -1,0 +1,5 @@
+streamlit
+requests
+pandas
+
+  # Only if you are using it to display dataframes in the UI
