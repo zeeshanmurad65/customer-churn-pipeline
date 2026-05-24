@@ -1,13 +1,25 @@
-# Customer Churn Prediction Pipeline
+# 🚀 Customer Churn Prediction Pipeline
 
-An end-to-end, full-stack machine learning pipeline that predicts customer churn risk. This application integrates a Scikit-Learn predictive model with a FastAPI backend, a MySQL database for historical tracking, and an interactive Streamlit frontend for business users.
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
 
-## 🏗️ Architecture
+An end-to-end, full-stack machine learning pipeline designed to predict customer churn risk and drive actionable retention strategies. 
 
-* **Frontend (UI):** Streamlit & Plotly (Interactive data collection and visualization)
-* **Backend (API):** FastAPI & Uvicorn (RESTful API architecture)
-* **Machine Learning:** Scikit-Learn (Logistic Regression Pipeline with native encoders)
-* **Database:** MySQL & SQLAlchemy (ORM-based relational data storage)
+This application goes beyond simply serving a model; it integrates a **Scikit-Learn** predictive engine with a **FastAPI** backend, logs interventions in a **MySQL** database for historical ROI tracking, and provides an interactive, state-aware **Streamlit** frontend for business stakeholders.
+
+---
+
+## 🏗️ System Architecture
+
+* **Frontend (UI):** Streamlit & Plotly (Interactive data collection, risk visualization, and state-locked action logging).
+* **Backend (API):** FastAPI & Uvicorn (Robust RESTful API architecture enforcing strict Pydantic data contracts).
+* **Machine Learning:** Scikit-Learn (Logistic Regression Pipeline with native encoders and probability scoring).
+* **Database:** MySQL & SQLAlchemy (ORM-based relational data storage for tracking retention interventions).
+
+---
 
 ## 📂 Project Structure
 
